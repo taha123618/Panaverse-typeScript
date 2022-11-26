@@ -1,0 +1,25 @@
+{
+  "name": "class_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:ts": "tsc -w",
+    "start:js": "nodemon index.ts",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "concurrently": "^7.6.0",
+    "inquirer": "^9.1.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
